@@ -1,0 +1,110 @@
+/* body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+} */
+
+
+/* the hr represents the line going across the gameboard */
+/* hr {
+    width: 600px;
+    height: 5px;
+    background: linear-gradient(to left, rgb(156, 44, 119),  rgb(205, 16, 77));
+} */
+/* This is the main game board*/
+/* #gameboard {
+    width: 450px;
+    height: 450px;
+
+    background: linear-gradient(to right,rgb(177, 178, 255), rgb(210, 218, 255));
+
+/* This center's the game board */
+    /* margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+} */ 
+/* The tile makes up the square blocks where the x's and o's are input. The lines will be 3px therefore, the width of each tile will be 147px (150px-3px) */
+/* .tile {
+    width: 147px;
+    height: 147px; */
+/* This will style the text that goes inside the tile, the X or the O */
+/* justify content centers the gameboard horizontally. This is using the "Flex" */
+/* align iemms centers the gameboard vertically. This is using the "Flex"*/
+    /* font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+/* This represents the horizontal lines on the gameboard */
+/* .horizontal-line {
+    border-bottom: 3px solid black; */
+/* } */
+/* This represents the vertical lines on the gameboard */
+/* .vertical-line {
+    border-right: 3px solid black;
+} */
+/* This will highlight the winner of the game */
+/* .winner {
+    background-color: lightseagreen;
+    color: rgb(230, 48, 78)
+} */
+
+/* ================================================================== */
+/* The root will hold the sitewide colors */
+:root {
+    --purple: #bd4147;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--purple);
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+h1 {
+    font-size: 54px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* this will ensure everything stays in the center of the screen */
+.container {
+    padding: 40px;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#gameboard {
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+
+}
+
+
+.box {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--purple);
+    font-size: 150px;
+    /* background: linear-gradient(to right,rgb(177, 178, 255), rgb(210, 218, 255)); */
+}
+
+button {
+    margin: 10px;
+}
+
