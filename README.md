@@ -1,6 +1,8 @@
 
 # Tic Tac Toe
 
+<a href= 'https://kelvin-freeman.github.io'>Play now with a friend</a>
+
 This project is a simple game for users to play tic tac toe against the computer.
 
 ## Motivation
